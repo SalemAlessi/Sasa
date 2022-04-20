@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+.ideal-cycle h1{
+    text-align: center;
+    background-color: 	#e0ffff;
+    border-radius: 20px;
+}
+
+.ideal-cycle ul{
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 5px solid 	#f8e005;
+    box-shadow: 20px 30px 5px  rgba(0, 0,0, 0.5);
+    border-radius: 50px;
+}
+
+/* Problems */
+
+.Equation_1{
+    font-size: 30px;
+    background-color: #e0ffff;
+    border-radius: 20px; 
+
+}
+ .Equation_1 p{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.Problem .Equation_1 ul{
+    color: red;
+    
+}
+.Problem .Equation_1 ul li{
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.Problem .Equation_1 ul li:hover{
+    background: #ffffff;
+    color: rgb(248, 0, 0);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.Solution_Equation_1{
+    background-image: url(../image/Thermodynamic/background-pro1.jpg);
+    text-align: center;
+    border: solid black 5px;
+    border-radius:50px;
+    position: relative;
+}
+.Solution_Equation_1 h2{
+    color: white;
+    font-size: 40px;
+}
+.Solution_Equation_1 div{
+    background-color: turquoise;
+    border-radius: 5px;
+    box-shadow: 5px 5px 50px rgba(255, 222, 222, 0.5);
+    width:1000px ;
+    transition: width 2s;
+    font-size: 20px;
+    margin: 0 auto;
+    border: solid black 2px;
+
+}
+
+ .Solution_Equation_1 div:hover{
+    width: 700px;
+    background-color: azure;
+    border-radius: 500px;
+} 
+.Solution_Equation_1 img{
+    position: absolute;
+    top:10px;
+    left:5%;
+    width: 300px;
+    box-shadow: 30px 30px 30px rgba(233, 120, 120, 0.5);
+}
+
+/*Problem2*/
+.Problem2 .Equation_2{
+    position: relative;
+}
+.Problem2 .Equation_2 {
+    font-size: 30px;
+    background-color: #e0ffff;
+    border-radius: 20px; 
+}
+.Problem2 .Equation_2 p{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.Problem2 ul{
+    color: red;
+    
+}
+.Problem2  .Equation_2 ul li{
+    background: #ffe5e5;
+    color: darkred;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+.Problem2  .Equation_2 ul li:hover{
+    background: #ffffff;
+    color: rgb(248, 0, 0);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.Problem2  .solution_Equation2 div{
+    background-color: turquoise;
+    border-radius: 5px;
+    box-shadow: 5px 5px 50px rgba(255, 222, 222, 0.5);
+    width:1000px ;
+    transition: width 2s;
+    font-size: 20px;
+    margin: 0 auto;
+
+}
+
+.Problem2 .solution_Equation2 div:hover{
+    width: 800px;
+    background-color: azure;
+    border-radius: 50px;
+}
+
+.Problem2 .solution_Equation2{
+    background-image: url(../image/Thermodynamic/background-pro1.jpg);
+    text-align: center;
+    border: solid black 5px;
+    border-radius:50px;
+    position: relative;
+}
+.Problem2 h2{
+    color: white;
+    font-size: 40px;
+}
+
+.Problem2 .solution_Equation2 img{
+    position: absolute;
+    top:0px;
+    left: 10px;
+    width: 300px;
+    height: 200px;
+}
+
+/*End*/
+.End{
+    background-color: black;
+    font-size: 20;
+    height:100px;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+}
+.End:hover{
+    background-color:white;
+    font-size: 20;
+    height:100px;
+    color:black;
+    text-align: center;
+    border-radius: 80px;
+}
+
+.End p{
+    padding-top: 10px;
+    font-size: 50px;
+
+}
+
+
+
+
+
+

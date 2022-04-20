@@ -1,0 +1,39 @@
+.Details {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../Img/problem3-1.jpg);
+    background-size: contain;
+
+}
+
+.Details h3{
+    font-size: 40px;
+}
+
+.Details p {
+    font-size: 30px;
+}
+
+.Text_Equation{
+    background-image: url(../Img/problem3.jpg);
+    background-size:contain ;
+}
+
+.Equation{
+    background-color: rgb( 50, 166, 168);
+}
+
+
+.Equation:hover{
+    filter: blur(0px);
+}
+
+#ClickDesign{
+    background-color: green;
+    border-radius: 20px;
+}
+#ClickDesign:hover{
+
+    border-radius:0px;
+
+}
